@@ -92,3 +92,16 @@ var galleryTop = new Swiper('.gallery-top', {
     swiper: galleryThumbs
   }
 });
+
+function removeDefault(e){
+  e.preventDefault()
+}
+
+var dropdownContent = document.querySelector(".dropdown-content")
+
+function show(){
+  dropdownContent.style.display="block"
+}
+function out(){
+  dropdownContent.style.display="none"
+}
