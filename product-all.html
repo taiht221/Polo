@@ -22,33 +22,35 @@
 </head>
 
 <body>
+    
     <header class="header">
+        <div id="contact">
+            <div class="phone-number">
+                <span>Hotline : 0828.039.666 - 0349.380.555</span>
+            </div>
+        </div>
         <div class="container">
             <div class="header__wrap">
                 <div class="header__top">
-                    <div class="logo">
+                    <a href="" class="logo">
                         <i class="logo__icon"><img src="img/logo.svg" alt=""></i>
-                    </div>
+                    </a>
                     <div class="company-infor">
                         <h1 class="title">Công ty tnhh máy công nghiệp polo </h1>
                         <p class="des"> nhà phân phối máy nén khí hàng đầu việt nam</p>
-                        <div class="contact">
-                            <i class="demo-icon icon-phone"></i>
-                            <div class="phone-number">
-                                <span>Hotline : 0828.039.666 - 0349.380.555</span>
-                            </div>
-                        </div>
+                        
                     </div>
                     <!-- menu mobile -->
                     <div class="hamburger">
                         <div></div>
                     </div>
                 </div>
-
+                
             </div>
         </div>
         <div class="nav">
             <div class="container">
+                <!-- menu desktop-->
                 <nav class="nav-link">
                     <ul>
                         <li>
@@ -57,8 +59,53 @@
                         <li>
                             <a href="about.html">Giới thiệu</a>
                         </li>
+                        <li class="dropdown-menu" onmouseover="show()" onmouseout="out()">
+                            <a href="#menu-content">Sản phẩm</a>
+                            <div class="dropdown-content">
+                                <a href="#"> Máy nén khí không dầu, giảm âm polo</a>
+                                <a href="#">Máy nén khí đầu tiên polo</a>
+                                <a href="#">Máy nén khí dây đai polo</a>
+                                <a href="#">Máy nén khí trục vít polo</a>
+                                <a href="#">bình tích khí polo</a>
+                                <a href="#">phụ kiện máy nén khí polo</a>
+                            </div>
+                        </li>
                         <li>
-                            <a href="products.html">Sản phẩm</a>
+                            <a href="video.html">Video</a>
+                        </li>
+                        <li>
+                            <a href="payment.html">Thanh toán - vận chuyển</a>
+                        </li>
+                        <li>
+                            <a href="guarantee.html">Bảo hành</a>
+                        </li>
+                        <li>
+                            <a href="job.html">Tuyển dụng</a>
+                        </li>
+                        <li>
+                            <div class="search-container">
+                                <form>
+                                    <input type="text" placeholder="Search.." name="search">
+
+                                </form>
+                                <button type="submit"><i class="demo-icon icon-search"></i></button>
+                            </div>
+                        </li>
+                    </ul>
+
+                </nav>
+
+                <!-- menu mobile -->
+                <nav  id="menu-mobile">
+                    <ul>
+                        <li>
+                            <a href="index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="about.html">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="#menu-content">Sản phẩm</a>
                         </li>
                         <li>
                             <a href="video.html">Video</a>
