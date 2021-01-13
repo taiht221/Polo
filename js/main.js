@@ -41,10 +41,6 @@ if (document.documentElement.clientWidth > 767) {
     freeMode: true,
     slidesPerView: 3,
     spaceBetween: 20,
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
   });
   // menu bar
   $(document).ready(function () {
